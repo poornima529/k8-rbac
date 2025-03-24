@@ -6,7 +6,7 @@ data:
       - system:nodes
       rolearn: arn:aws:iam::340752838251:role/eksctl-expense-nodegroup-expense-NodeInstanceRole-obldpCsd3SiK
       username: system:node:{{EC2PrivateDNSName}}
-  mapUsers:
+  mapUsers: |
     - groups:
       - default-trainee
       userarn: arn:aws:iam::340752838251:user/sudhakar
